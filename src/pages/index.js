@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Flexbox } from "../components/commonStyles";
+import styled from "styled-components";
 
 // TODO Replace favicon!!!!
 const Home = () => (
