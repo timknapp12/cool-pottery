@@ -1,14 +1,21 @@
 import Head from "next/head";
-import CoolPottery from "../components/icons/CoolPottery";
+import { Flexbox } from "../components/commonStyles";
+
+// TODO Replace favicon!!!!
 const Home = () => (
   <div className="container">
     <Head>
       <title>Create Next App</title>
       <link rel="icon" href="/cool-pottery-black.png" />
     </Head>
-    Cool Pottery
-    <img src="/cool-pottery-blue.png" />
-    <CoolPottery fill="blue" size="16px" stroke="yellow" />
+    <Flexbox>
+      <Flexbox flexDirection="column">
+        <h1>Welcome to Coolpottery.art</h1>
+        <h2>
+          This site is currently being built so come back and see us sometime :)
+        </h2>
+      </Flexbox>
+    </Flexbox>
   </div>
 );
 
