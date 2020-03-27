@@ -8,7 +8,7 @@ const Flex = styled.div`
   align-items: ${({ alignItems }) => alignItems};
 `;
 
-export const Flexbox = ({
+const Flexbox = ({
   justifyContent = "center",
   alignItems = "center",
   flexDirection = "row",
@@ -22,3 +22,5 @@ export const Flexbox = ({
     {children}
   </Flex>
 );
+
+export default Flexbox;
