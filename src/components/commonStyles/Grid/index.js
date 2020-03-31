@@ -9,8 +9,8 @@ const Container = styled.div`
     @media (min-width: ${min}) {
       grid-template-columns: repeat( auto-fit, minmax(${min}, 1fr) );
     }
-    grid-column-gap: ${gaps[columnGapSize] || gaps[gapSize]};
-    grid-row-gap: ${gaps[rowGapSize] || gaps[gapSize]};
+    grid-column-gap: ${[columnGapSize] || [gapSize]};
+    grid-row-gap: ${[rowGapSize] || [gapSize]};
   `};
 `;
 
