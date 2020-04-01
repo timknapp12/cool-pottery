@@ -1,6 +1,9 @@
 import React from "react";
-import { mount } from "enzyme";
-import Grid from "../index";
+import Grid from "./index";
+import Enzyme, { mount } from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
+
+Enzyme.configure({ adapter: new Adapter() });
 
 test("renders with required props without crashing", () => {
   const wrapper = mount(

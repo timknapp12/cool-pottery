@@ -5,9 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
+    "@aws-amplify/api": "^2.2.1",
+    "@aws-amplify/pubsub": "^2.1.9",
+    "aws-amplify-react": "^3.1.9",
     "next": "^9.3.3",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
@@ -17,6 +21,7 @@
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "husky": "^4.2.3",
     "jest": "^25.2.4"
   },
