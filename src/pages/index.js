@@ -12,7 +12,8 @@ const Home = () => (
       <Flexbox flexDirection="column">
         <h1>Welcome to Coolpottery.art</h1>
         <h2>
-          This site is currently being built so come back and see us sometime :)
+          This site is currently being built so come back and see us sometime
+          soon :)
         </h2>
       </Flexbox>
     </Flexbox>
